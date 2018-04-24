@@ -1,5 +1,6 @@
 # need to run this as sudo, or admin.
 # working on a work around for that.
+# -> VERY IMPORTANT!!!!! Make sure all scripts located within the ctrl file are executable, chmod a+x 
 try:
     import sys
     import subprocess
