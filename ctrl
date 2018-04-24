@@ -1,4 +1,4 @@
-./sub_bot/link_grabber.py
-./sub_bot/grabbed_link_tweeter.py
-./sub_bot/sub_bot_retweet.py
-./sub_bot/4chan_crawl.py
+~/Desktop/yatb-master/sub_bot/4chan.sh
+~/Desktop/yatb-master/sub_bot/bot_retweet.sh
+~/Desktop/yatb-master/sub_bot/grab_link_retweet.sh
+~/Desktop/yatb-master/sub_bot/link_grabber.sh
