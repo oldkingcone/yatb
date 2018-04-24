@@ -11,14 +11,15 @@ def run_ctrl(afile):
     aline = the_file.readlines()
     try:
         for line in aline:
-            subprocess.call(line, shell=False)
+            subprocess.call(line)
     except Exception as e:
         print("[~] Something went wrong: %s" % str(e))
         return False
     return "[!!] Complete, all processes are running. [!!]"
 
 while True:
-    read = str(input("[~] Where is the ctrl file? (full path only please) [~]\n->"))
+    read = str(input("[~] Where is the ctrl file? (ex: somedirectory/ctrl) [~]\n->"))
+    direct = './'+read
     run_ctrl(read)
     if False:
         continue
