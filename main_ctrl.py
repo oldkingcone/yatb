@@ -1,3 +1,5 @@
+# need to run this as sudo, or admin.
+# working on a work around for that.
 try:
     import sys
     import subprocess
