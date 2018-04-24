@@ -14,7 +14,8 @@ def run_ctrl(afile):
     aline = the_file.readlines()
     try:
         for line in aline:
-            subprocess.call(line.rstrip('\n'))
+            lone =line.rstrip('\n')
+            os.system(lone)
     except Exception as e:
         print("[~] Something went wrong: %s" % str(e))
         return False
